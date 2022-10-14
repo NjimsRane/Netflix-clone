@@ -9,68 +9,91 @@
         <link rel="stylesheet" href="/dist/main.css">
     </head>
     <body>
-        <div class="container">
-            <div class="heroSection">
-         </div>
-            <!-- header start -->
-                <header>
-                    <a href="/App/HTML/index.html" class="logo">NETFLIX</a>
-                    <a href="/App/HTML/singIn.html">
-                        <button type="button">Sign In</button>
-                    </a>
-                </header>
-                <div class="hero">
-                    <h2>
-                        Unlimited movies,TV shows, and more.
-                    </h2>
-                    <p class="moto">Watch anywhere.Cancel anytime</p>
-                    <form action="#">
-                        <p>Ready to watch ? Enter your email to create or restart your membership</p>
-                        <label for="userMail" aria-label="user mail">
-                            <input type="email" placeholder="Email address">
-                        </label>
-        
-                        <button type="submit">
-                            Get Started &#62;
-                        </button>
-                    </form>
-                </div>
-            <!-- header end -->
+      <div class="heroContainer">
+        <!-- header start -->
+        <header>
+            <a href="/App/HTML/index.html" class="logo">NETFLIX</a>
+            <a href="/App/HTML/singIn.html">
+                <button type="button" class="signInBtn">Sign In
+
+                </button>
+            </a>
+        </header>
+         <!-- header end -->
+        <div class="heroImage"></div>
+        <div class="heroSection">
+            <h2>
+                Unlimited movies,TV shows, and more.
+            </h2>
+            <p class="moto">Watch anywhere.Cancel anytime.
+
+            </p>
+            <p>Ready to watch ? Enter your email to create or restart your membership</p>
+            <form action="#">
+                <label for="userMail" aria-label="user mail">
+                <input type="email" placeholder="Email address" required>
+                </label>
+    
+                <button type="submit">
+                    Get Started &#62;
+                </button>
+            </form>
         </div>
+      </div>
        
+    <!-- main start -->
+    <main>
+        <hr>
        
-        <!-- main start -->
-            <main>
-                <hr>
-                <h2>Enjoy on your TV.</h2>
-                <p>Watch on Smart TVs,Playstation,Xbox,Chromecast,Apple TV, Blu-ray players, and more.</p>
-                <div class="tvShow">
-                    <img src="/imgs/tv.png" alt="tv image">
-                </div>
-                <hr>
-                <h2>Download your shows to watch offline.</h2>
-                <p>Save your favorites easily and always have somethig to watch</p>
-                <div class="phoneImage">
-                    <div class="phone">
-                        <img src="/imgs/mobile-0819.jpg" alt="">
-                    </div>
-                    <div class="movieTitle">
-                        <img src="/imgs/boxshot.png" alt="movie title">
-                        <p>Strange Things<br><span>Downloading...</span></p>
-                    </div>
-                </div>
-                <hr>
-                    <h2>Watch everywhere.</h2>
-                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
-                <hr>
-                    <h2>Create profiles for kids.</h2>
-                    <p>Send kids on adventure with their favorite characters in a space made just for them-free with your membership.</p>
-                    <div class="kidsImage">
-                        <img src="/imgs/AAAABfpnX3dbgjZ-Je8Ax3xn0kXehZm_5L6-xe6YSTq_ucht9TI5jwDMqusWZKNYT8DfGudD0_wWVVTFLiN2_kaQJumz2iivUWbIbAtF.png" alt="kids images">
-                    </div>
-                <hr>
+        <div class="main">
+            <h2>Enjoy on your TV.</h2>
+            <p>Watch on Smart TVs,Playstation,<br>Xbox,Chromecast,Apple TV, Blu-ray players, and more.</p>
+            <div class="tvShow">
+                <img src="/imgs/tv.png" alt="tv image">
+            </div>
+        </div>
+                
+        <hr>
+
+        <div class="main">
+            <h2>Download your shows to watch offline.</h2>
+            <p>Save your favorites easily and always have somethig to watch</p>
+            <div class="phoneImage">
+            <div class="phone">
+                <img src="/imgs/mobile-0819.jpg" alt="phone image">
+            </div>
+            <div class="movieTitle">
+                <img src="/imgs/boxshot.png" alt="movie title">
+                <p>Strange Things<br><span>Downloading...</span></p>
+                <p>&darr;</p>
+            </div>
+        </div>
+              
+        <hr>
+
+        <div class="main">
+            <h2>Watch everywhere.</h2>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+                    
+        <hr>
+
+        <div class="main">
+            <h2>Create profiles for kids.</h2>
+            <p>Send kids on adventure with their favorite characters in a space made just for them-free with your membership.
+
+            </p>
+            <div class="kidsImage">
+                <img src="/imgs/AAAABfpnX3dbgjZ-Je8Ax3xn0kXehZm_5L6-xe6YSTq_ucht9TI5jwDMqusWZKNYT8DfGudD0_wWVVTFLiN2_kaQJumz2iivUWbIbAtF.png" alt="kids images">
+            </div>
+        </div>
+                   
+        <hr>
+            <div class="main">
                 <h2>Frequently Asked Questions</h2>
-            </main>
+            </div>
+        <hr>        
+        </main>
         <!-- main end -->
         <!-- footer start -->
             <footer></footer>
