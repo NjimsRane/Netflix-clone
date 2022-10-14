@@ -113,22 +113,22 @@ h2 {
 /* main ***************** start*/
 main hr {
   border: 6px solid var(--input-bg);
-  margin-block: 2em;
+  margin-block: 1em;
 }
-main .main {
+main > div {
   text-align: center;
   padding: 2em;
 }
-main .main h2 {
+main > div h2 {
   margin-block: 0.5em 1em;
 }
-main .main p {
+main > div p {
   font-size: 2rem;
 }
-main .main img {
+main > div img {
   width: 100%;
 }
-main .main .phoneImage .movieTitle {
+main > div .phoneImage .movieTitle {
   position: relative;
   bottom: 6em;
   margin-inline: auto;
@@ -142,15 +142,15 @@ main .main .phoneImage .movieTitle {
   justify-content: space-between;
   align-items: center;
 }
-main .main .phoneImage .movieTitle p {
+main > div .phoneImage .movieTitle p {
   font-size: 1.6rem;
   text-align: justify;
 }
-main .main .phoneImage .movieTitle p span {
-  font-size: 1.5rem;
+main > div .phoneImage .movieTitle p span {
+  font-size: 1.2rem;
   color: rgb(60, 84, 206);
 }
-main .main .phoneImage .movieTitle img {
+main > div .phoneImage .movieTitle img {
   width: 3.5em;
 }
 
