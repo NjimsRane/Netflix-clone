@@ -96,8 +96,10 @@ h2 {
 .heroContainer .heroSection form input {
   display: block;
   width: 100%;
+  max-width: 40em;
   height: 4em;
   padding: 1em 0.5em;
+  margin-inline: auto;
   font-size: 1.4rem;
   color: #000;
   font-weight: 500;
@@ -152,6 +154,74 @@ main > div .phoneImage .movieTitle p span {
 }
 main > div .phoneImage .movieTitle img {
   width: 3.5em;
+}
+main > div:nth-of-type(1) {
+  padding-inline: unset;
+}
+main .questions {
+  background-color: var(--input-bg);
+  text-align: left;
+  padding-block: 0.8em;
+  margin-block: 0.8em;
+}
+main .questions .titleSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+main .questions .titleSection .questionTitle {
+  font-size: 1.8rem;
+}
+main .questions .titleSection .hamburgerMenu .hamburger {
+  width: 2em;
+  height: 0.3em;
+  background-color: var(--font-color1);
+}
+main .questions .titleSection .hamburgerMenu .hamburger:not(:last-child) {
+  transform: translateY(0.1em) rotate(90deg);
+}
+main .questions .titleSection .hamburgerMenu .hamburger:last-child {
+  transform: translateY(-0.3em);
+}
+main .questions .textSection {
+  border-top: 1px solid var(--bg-color);
+  display: none;
+  transition: all 0.5s;
+}
+main .questions .textSection p {
+  padding: 1em;
+}
+main .questions .textSection p:not(:last-of-type) {
+  margin-bottom: 0.5em;
+}
+main .questions .showText .textSection {
+  display: block;
+  transition: all 0.5s;
+}
+main p {
+  font-size: 2rem;
+}
+main form {
+  width: 100%;
+  margin-top: 1em;
+}
+main form input {
+  display: block;
+  width: 100%;
+  max-width: 40em;
+  height: 4em;
+  padding: 1em 0.5em;
+  margin-inline: auto;
+  font-size: 1.4rem;
+  color: #000;
+  font-weight: 500;
+  border-radius: 3px;
+}
+main form button {
+  margin-top: 2em;
+  padding: 0.5em;
+  font-size: 2.5rem;
 }
 
 /* main ***************** end*//*# sourceMappingURL=main.css.map */
